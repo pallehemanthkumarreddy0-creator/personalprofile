@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Virat Kohli ODI Stats</title>
+
+<style>
+
+/* BODY */
+
+body{
+margin:0;
+font-family:Segoe UI,Arial;
+background:#eef2f7;
+}
+
+/* HEADER */
+
+.header{
+background:linear-gradient(135deg,#2e7999,#5ab4d2,#f05fc0);
+color:white;
+text-align:center;
+padding:40px;
+}
+
+/* STICKY NAVBAR */
+
+.navbar{
+position:sticky;
+top:0;
+background:#111;
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+transition:0.3s;
+}
+
+.navbar a:hover{
+color:#ff9800;
+}
+
+/* MAIN CONTAINER */
+
+.container{
+width:85%;
+margin:auto;
+margin-top:30px;
+}
+
+/* SECTION BASE */
+
+.section{
+padding:30px;
+margin-bottom:40px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* SECTION COLORS */
+
+.about-section{
+background:linear-gradient(135deg,#fff7e6,#ffe0b2);
+border-left:8px solid #ff9800;
+}
+
+.stats-section{
+background:linear-gradient(135deg,#e8f5e9,#c8e6c9);
+border-left:8px solid #4caf50;
+}
+
+.contribution-section{
+background:linear-gradient(135deg,#e3f2fd,#bbdefb);
+border-left:8px solid #2196f3;
+}
+
+.centuries-section{
+background:linear-gradient(135deg,#f3e5f5,#ebe9ec);
+border-left:8px solid #f2f0f2;
+}
+
+.awards-section{
+background:linear-gradient(135deg,#fdfdfd,#ffe0b2);
+border-left:8px solid #ff5722;
+}
+
+/* IMAGE */
+
+.player-img{
+width:260px;
+border-radius:10px;
+display:block;
+margin:auto;
+margin-bottom:20px;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th{
+background:#1e3a8a;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+border:1px solid #ddd;
+}
+
+/* HOVER GLOW */
+
+tr:hover{
+background:#e8f0ff;
+box-shadow:0 0 10px #90caf9;
+}
+
+/* COUNTERS */
+
+.counter-box{
+display:flex;
+justify-content:space-around;
+margin-top:20px;
+}
+
+.counter{
+font-size:32px;
+font-weight:bold;
+color:#1e3a8a;
+}
+
+/* AWARD BUTTONS */
+
+.award-buttons{
+text-align:center;
+}
+
+.award-buttons button{
+padding:12px 20px;
+margin:10px;
+border:none;
+border-radius:6px;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn1{background:#ff9800;}
+.btn2{background:#4caf50;}
+.btn3{background:#e91e63;}
+.btn4{background:#3f51b5;}
+
+.award-buttons button:hover{
+transform:scale(1.1);
+}
+
+#awardText{
+margin-top:20px;
+padding:20px;
+background:#eef3ff;
+border-left:6px solid #1e3a8a;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>Virat Kohli ODI Statistics</h1>
+<p>Career highlights and records</p>
+</div>
+
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="odi.html">ODI</a>
+<a href="test.html">Test</a>
+<a href="t20.html">T20</a>
+</div>
+
+<div class="container">
+
+<!-- ABOUT -->
+
+<div class="section about-section">
+
+<img class="player-img"
+src="https://upload.wikimedia.org/wikipedia/commons/1/15/Virat_Kohli_portrait.jpg">
+
+<h2>About Virat Kohli</h2>
+
+<p>
+Virat Kohli is widely regarded as one of the greatest ODI batsmen in cricket history.
+He is known for his consistency, aggressive batting style, and incredible ability to chase targets.
+</p>
+
+</div>
+
+<!-- STATS WITH COUNTERS -->
+
+<div class="section stats-section">
+
+<h2>ODI Career Stats</h2>
+
+<div class="counter-box">
+
+<div>
+<div class="counter" data-target="292">0</div>
+<p>Matches</p>
+</div>
+
+<div>
+<div class="counter" data-target="13848">0</div>
+<p>Runs</p>
+</div>
+
+<div>
+<div class="counter" data-target="50">0</div>
+<p>Centuries</p>
+</div>
+
+<div>
+<div class="counter" data-target="72">0</div>
+<p>Half Centuries</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- CONTRIBUTION -->
+
+<div class="section contribution-section">
+
+<img class="player-img"
+src="kohli.jpg">
+
+<h2>Contribution to ODI Cricket</h2>
+
+<ul>
+
+<li>Fastest player to many run milestones in ODI cricket.</li>
+
+<li>Known as one of the greatest run chasers.</li>
+
+<li>Key player in India's 2011 World Cup victory.</li>
+
+<li>Held record for most ODI centuries.</li>
+
+</ul>
+
+</div>
+
+<!-- CENTURIES TABLE -->
+
+<div class="section centuries-section">
+
+<h2>ODI Centuries</h2>
+
+<table>
+
+<tr>
+<th>No</th>
+<th>Score</th>
+<th>Opponent</th>
+</tr>
+
+<tr><td>1</td><td>107</td><td>Sri Lanka</td></tr>
+<tr><td>2</td><td>102*</td><td>Bangladesh</td></tr>
+<tr><td>3</td><td>118</td><td>Australia</td></tr>
+<tr><td>4</td><td>105</td><td>New Zealand</td></tr>
+<tr><td>5</td><td>112</td><td>England</td></tr>
+
+<tr><td>6</td><td>117</td><td>West Indies</td></tr>
+<tr><td>7</td><td>115</td><td>Australia</td></tr>
+<tr><td>8</td><td>123</td><td>Sri Lanka</td></tr>
+<tr><td>9</td><td>100*</td><td>Pakistan</td></tr>
+<tr><td>10</td><td>103</td><td>South Africa</td></tr>
+
+<tr><td>11</td><td>106</td><td>West Indies</td></tr>
+<tr><td>12</td><td>102</td><td>Australia</td></tr>
+<tr><td>13</td><td>115</td><td>Zimbabwe</td></tr>
+<tr><td>14</td><td>123</td><td>New Zealand</td></tr>
+<tr><td>15</td><td>127</td><td>Bangladesh</td></tr>
+
+<tr><td>16</td><td>112</td><td>Sri Lanka</td></tr>
+<tr><td>17</td><td>131</td><td>Sri Lanka</td></tr>
+<tr><td>18</td><td>122*</td><td>England</td></tr>
+<tr><td>19</td><td>117</td><td>Australia</td></tr>
+<tr><td>20</td><td>138</td><td>South Africa</td></tr>
+
+<tr><td>21</td><td>107</td><td>Pakistan</td></tr>
+<tr><td>22</td><td>154*</td><td>New Zealand</td></tr>
+<tr><td>23</td><td>122</td><td>England</td></tr>
+<tr><td>24</td><td>111*</td><td>West Indies</td></tr>
+<tr><td>25</td><td>160*</td><td>South Africa</td></tr>
+
+<tr><td>26</td><td>104</td><td>Australia</td></tr>
+<tr><td>27</td><td>134</td><td>England</td></tr>
+<tr><td>28</td><td>111</td><td>New Zealand</td></tr>
+<tr><td>29</td><td>140</td><td>West Indies</td></tr>
+<tr><td>30</td><td>157*</td><td>West Indies</td></tr>
+
+<tr><td>31</td><td>110*</td><td>Sri Lanka</td></tr>
+<tr><td>32</td><td>121</td><td>West Indies</td></tr>
+<tr><td>33</td><td>107</td><td>Pakistan</td></tr>
+<tr><td>34</td><td>113</td><td>Australia</td></tr>
+<tr><td>35</td><td>148</td><td>West Indies</td></tr>
+
+<tr><td>36</td><td>139</td><td>Australia</td></tr>
+<tr><td>37</td><td>123</td><td>New Zealand</td></tr>
+<tr><td>38</td><td>114</td><td>West Indies</td></tr>
+<tr><td>39</td><td>122*</td><td>Pakistan</td></tr>
+<tr><td>40</td><td>103</td><td>Bangladesh</td></tr>
+
+<tr><td>41</td><td>107</td><td>Sri Lanka</td></tr>
+<tr><td>42</td><td>113</td><td>West Indies</td></tr>
+<tr><td>43</td><td>160*</td><td>South Africa</td></tr>
+<tr><td>44</td><td>123</td><td>Australia</td></tr>
+<tr><td>45</td><td>111*</td><td>Sri Lanka</td></tr>
+
+<tr><td>46</td><td>122</td><td>Pakistan</td></tr>
+<tr><td>47</td><td>101*</td><td>Bangladesh</td></tr>
+<tr><td>48</td><td>117</td><td>New Zealand</td></tr>
+<tr><td>49</td><td>113</td><td>Bangladesh</td></tr>
+<tr><td>50</td><td>117</td><td>New Zealand</td></tr>
+
+</table>
+
+</div>
+
+<!-- AWARDS -->
+
+<div class="section awards-section">
+
+<h2 style="text-align:center">Awards</h2>
+
+<div class="award-buttons">
+
+<button class="btn1" onclick="showAward('khelratna')">Khel Ratna</button>
+
+<button class="btn2" onclick="showAward('padmashri')">Padma Shri</button>
+
+<button class="btn3" onclick="showAward('padmabhushan')">Padma Bhushan</button>
+
+<button class="btn4" onclick="showAward('icc')">ICC Awards</button>
+
+</div>
+
+<div id="awardText">
+Click a button to see award details.
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>Virat Kohli Cricket Project | Created by Hemanth</p>
+
+</footer>
+
+<script>
+
+/* COUNTER ANIMATION */
+
+const counters=document.querySelectorAll('.counter');
+
+counters.forEach(counter=>{
+const update=()=>{
+const target=+counter.getAttribute('data-target');
+const count=+counter.innerText;
+
+const inc=target/200;
+
+if(count<target){
+counter.innerText=Math.ceil(count+inc);
+setTimeout(update,10);
+}else{
+counter.innerText=target;
+}
+};
+
+update();
+});
+
+/* AWARD BUTTONS */
+
+function showAward(a){
+
+let text="";
+
+if(a=="khelratna"){
+text="Virat Kohli received the Rajiv Gandhi Khel Ratna Award in 2018.";
+}
+
+if(a=="padmashri"){
+text="Virat Kohli received the Padma Shri award in 2017.";
+}
+
+if(a=="padmabhushan"){
+text="Virat Kohli received the Padma Bhushan in 2020.";
+}
+
+if(a=="icc"){
+text="Virat Kohli has won multiple ICC awards including ICC Cricketer of the Year.";
+}
+
+document.getElementById("awardText").innerHTML=text;
+
+}
+
+</script>
+
+</body>
+</html>
